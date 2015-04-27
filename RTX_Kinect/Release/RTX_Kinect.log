@@ -1,0 +1,63 @@
+﻿Build started 4/26/2015 4:59:42 PM.
+     1>Project "C:\Users\William\Documents\Visual Studio 2013\Projects\RTX_Kinect\RTX_Kinect\RTX_Kinect.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D CODE_ANALYSIS /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\RTX_Kinect.pch.codeanalysis" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt   /analyze:quiet stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D CODE_ANALYSIS /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\RTX_Kinect.pch.codeanalysis" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt   /analyze:quiet CMotionThread.cpp KinectAudioStream.cpp RTXControl.cpp RTX_Kinect.cpp RTX_KinectDlg.cpp SkeletonBasics.cpp
+         CMotionThread.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Speech\v11.0\Include\sphelper.h(1235): warning C4996: 'GetVersionExW': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442) : see declaration of 'GetVersionExW'
+         KinectAudioStream.cpp
+         RTXControl.cpp
+     1>RTXControl.cpp(247): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>RTXControl.cpp(250): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>RTXControl.cpp(253): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>RTXControl.cpp(262): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>RTXControl.cpp(265): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         RTX_Kinect.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Speech\v11.0\Include\sphelper.h(1235): warning C4996: 'GetVersionExW': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442) : see declaration of 'GetVersionExW'
+         RTX_KinectDlg.cpp
+         SkeletonBasics.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Speech\v11.0\Include\sphelper.h(1235): warning C4996: 'GetVersionExW': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442) : see declaration of 'GetVersionExW'
+     1>SkeletonBasics.cpp(562): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>SkeletonBasics.cpp(564): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>SkeletonBasics.cpp(567): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         Running Code Analysis for C/C++...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IRelease\ /nologo /fo"Release\RTX_Kinect.res" RTX_Kinect.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\William\Documents\Visual Studio 2013\Projects\RTX_Kinect\Release\RTX_Kinect.exe" /INCREMENTAL:NO /NOLOGO Msdmo.lib dmoguids.lib amstrmid.lib avrt.lib kernel32.lib user32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib rt100.lib Kinect10.lib /NODEFAULTLIB:LIBCD.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\William\Documents\Visual Studio 2013\Projects\RTX_Kinect\Release\RTX_Kinect.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:NOICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\William\Documents\Visual Studio 2013\Projects\RTX_Kinect\Release\RTX_Kinect.lib" /MACHINE:X86 /SAFESEH:NO Release\RTX_Kinect.res
+         Release\CMotionThread.obj
+         Release\KinectAudioStream.obj
+         Release\RTXControl.obj
+         Release\RTX_Kinect.obj
+         Release\RTX_KinectDlg.obj
+         Release\SkeletonBasics.obj
+         Release\stdafx.obj
+         Kinect10.lib
+         RT100.LIB
+     1>rt100.lib(RT100.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+         Generating code
+         Finished generating code
+     1>rt100.lib(IPC_Comms.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'rt100.lib(IPC_Comms.obj)' or at 'C:\Users\William\Documents\Visual Studio 2013\Projects\RTX_Kinect\Release\vc60.pdb'; linking object as if no debug info
+     1>rt100.lib(RT100.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'rt100.lib(RT100.obj)' or at 'C:\Users\William\Documents\Visual Studio 2013\Projects\RTX_Kinect\Release\vc60.pdb'; linking object as if no debug info
+         RTX_Kinect.vcxproj -> C:\Users\William\Documents\Visual Studio 2013\Projects\RTX_Kinect\Release\RTX_Kinect.exe
+     1>c:\program files (x86)\microsoft sdks\speech\v11.0\include\sphelper.h(176): warning C6031: Return value ignored: 'StringFromCLSID'.
+     1>c:\program files (x86)\microsoft sdks\speech\v11.0\include\sphelper.h(177): warning C6102: Using '*this' from failed function call at line '176'.
+     1>c:\program files (x86)\microsoft sdks\speech\v11.0\include\sphelper.h(197): warning C6031: Return value ignored: 'StringFromCLSID'.
+     1>c:\program files (x86)\microsoft sdks\speech\v11.0\include\sphelper.h(1235): warning C28159: Consider using 'IsWindows*' instead of 'GetVersionExW'. Reason: Deprecated. Use VerifyVersionInfo* or IsWindows* macros from VersionHelpers.
+     1>c:\program files (x86)\microsoft sdks\speech\v11.0\include\sphelper.h(1311): warning C6102: Using '*Handle' from failed function call at line '1285'.
+     1>c:\program files (x86)\microsoft sdks\speech\v11.0\include\sphelper.h(1314): warning C6102: Using 'pszTemp' from failed function call at line '1264'.
+     1>c:\program files (x86)\microsoft sdks\speech\v11.0\include\sphelper.h(1309): warning C6102: Using 'Handle' from failed function call at line '1285'.
+     1>c:\program files (x86)\microsoft sdks\speech\v11.0\include\sphelper.h(1563): warning C6385: Reading invalid data from 'BytesPerSec':  the readable size is '16' bytes, but '20' bytes may be read.
+     1>c:\program files (x86)\microsoft sdks\speech\v11.0\include\sphelper.h(1731): warning C6001: Using uninitialized memory '*m_pCoMemWaveFormatEx'.
+     1>c:\users\william\documents\visual studio 2013\projects\rtx_kinect\rtx_kinect\kinectaudiostream.cpp(395): warning C6262: Function uses '32064' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.
+     1>c:\users\william\documents\visual studio 2013\projects\rtx_kinect\rtx_kinect\skeletonbasics.cpp(708): warning C6387: 'mt.pbFormat' could be '0':  this does not adhere to the specification for the function 'memcpy'. 
+     1>c:\users\william\documents\visual studio 2013\projects\rtx_kinect\rtx_kinect\skeletonbasics.cpp(979): warning C6387: 'Map[i].pszSpeechTag' could be '0':  this does not adhere to the specification for the function 'wcscmp'. 
+     1>Done Building Project "C:\Users\William\Documents\Visual Studio 2013\Projects\RTX_Kinect\RTX_Kinect\RTX_Kinect.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:30.75

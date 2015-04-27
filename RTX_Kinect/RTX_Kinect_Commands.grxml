@@ -1,0 +1,154 @@
+﻿<grammar version="1.0" xml:lang="en-US" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+
+      <item>
+        <tag>RTXHome</tag>
+        <one-of>
+          <item> RTX Home </item>
+        </one-of>
+      </item>
+	  <item>
+        <tag>RTXZedPlus</tag>
+        <one-of>
+          <item> RTX Zed up </item>
+		  <item> RTX Zed right </item>
+		  <item> RTX Zed positive </item>
+		  <item> RTX Zed plus </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RTXZedMinus</tag>
+        <one-of>
+		  <item> RTX Zed down </item>
+		  <item> RTX Zed left </item>
+		  <item> RTX Zed negative </item>
+		  <item> RTX Zed minus </item>
+        </one-of>
+      </item>
+	  
+	  
+
+      <item>
+        <tag>RTXShoulderPlus</tag>
+        <one-of>
+          <item> RTX Shoulder up </item>
+          <item> RTX Shoulder left </item>
+          <item> RTX Shoulder positive </item>
+          <item> RTX Shoulder plus </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RTXShoulderMinus</tag>
+        <one-of>
+          <item> RTX Shoulder down </item>
+          <item> RTX Shoulder right </item>
+          <item> RTX Shoulder negative </item>
+          <item> RTX Shoulder minus </item>
+        </one-of>
+      </item>
+	  
+	  
+      <item>
+        <tag>RTXElbowPlus</tag>
+        <one-of>
+          <item> RTX Elbow up </item>
+		  <item> RTX Elbow left </item>
+		  <item> RTX Elbow positive </item>
+		  <item> RTX Elbow plus </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RTXElbowMinus</tag>
+        <one-of>
+          <item> RTX Elbow down </item>
+		  <item> RTX Elbow right </item>
+		  <item> RTX Elbow negative </item>
+		  <item> RTX Elbow minus </item>
+        </one-of>
+      </item>
+	  
+	  
+      <item>
+        <tag>RTXYawPlus</tag>
+        <one-of>
+          <item> RTX Yaw up </item>
+		  <item> RTX Yaw right </item>
+		  <item> RTX Yaw positive </item>
+		  <item> RTX Yaw plus </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RTXYawMinus</tag>
+        <one-of>
+          <item> RTX Yaw down </item>
+		  <item> RTX Yaw left </item>
+		  <item> RTX Yaw negative </item>
+		  <item> RTX Yaw minus </item>
+        </one-of>
+      </item>
+	  
+	  
+      <item>
+        <tag>RTXPitchPlus</tag>
+        <one-of>
+		  <item> RTX Pitch up </item>
+		  <item> RTX Pitch right </item>
+		  <item> RTX Pitch positive </item>
+		  <item> RTX Pitch plus </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RTXPitchMinus</tag>
+        <one-of>
+          <item> RTX Pitch down </item>
+		  <item> RTX Pitch left </item>
+		  <item> RTX Pitch negative </item>
+		  <item> RTX Pitch minus </item>
+        </one-of>
+      </item>
+	  
+	  
+      <item>
+        <tag>RTXRollPlus</tag>
+        <one-of>
+          <item> RTX Roll up </item>
+		  <item> RTX Roll right </item>
+		  <item> RTX Roll positive </item>
+		  <item> RTX Roll plus </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RTXRollMinus</tag>
+        <one-of>
+          <item> RTX Roll down </item>
+		  <item> RTX Roll left </item>
+		  <item> RTX Roll negative </item>
+		  <item> RTX Roll minus </item>
+        </one-of>
+      </item>
+	  
+	  
+      <item>
+        <tag>RTXGripperPlus</tag>
+        <one-of>
+		  <item> RTX Gripper up </item>
+		  <item> RTX Gripper right </item>
+		  <item> RTX Gripper positive </item>
+		  <item> RTX Gripper plus </item>
+		  <item> RTX Gripper open </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RTXGripperMinus</tag>
+        <one-of>
+          <item> RTX Gripper down </item>
+		  <item> RTX Gripper left </item>
+		  <item> RTX Gripper negative </item>
+		  <item> RTX Gripper minus </item>
+		  <item> RTX Gripper close </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

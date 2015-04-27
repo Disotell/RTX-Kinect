@@ -1,0 +1,27 @@
+﻿Build started 4/25/2015 3:46:25 PM.
+     1>Project "C:\Users\William\Documents\Visual Studio 2013\Projects\RTX_Kinect\RTX_Kinect\RTX_Kinect.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\RTX_Kinect.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt RTXControl.cpp
+         RTXControl.cpp
+     1>c:\users\william\documents\visual studio 2013\projects\rtx_kinect\rtx_kinect\rtxcontrol.cpp(264): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\william\documents\visual studio 2013\projects\rtx_kinect\rtx_kinect\rtxcontrol.cpp(267): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\william\documents\visual studio 2013\projects\rtx_kinect\rtx_kinect\rtxcontrol.cpp(270): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\william\documents\visual studio 2013\projects\rtx_kinect\rtx_kinect\rtxcontrol.cpp(279): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\william\documents\visual studio 2013\projects\rtx_kinect\rtx_kinect\rtxcontrol.cpp(282): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\William\Documents\Visual Studio 2013\Projects\RTX_Kinect\Debug\RTX_Kinect.exe" /INCREMENTAL /NOLOGO Msdmo.lib dmoguids.lib amstrmid.lib avrt.lib kernel32.lib user32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib rt100.lib Kinect10.lib /NODEFAULTLIB:LIBCD.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\William\Documents\Visual Studio 2013\Projects\RTX_Kinect\Debug\RTX_Kinect.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\William\Documents\Visual Studio 2013\Projects\RTX_Kinect\Debug\RTX_Kinect.lib" /MACHINE:X86 Debug\RTX_Kinect.res
+         Debug\CMotionThread.obj
+         Debug\KinectAudioStream.obj
+         Debug\RTXControl.obj
+         Debug\RTX_Kinect.obj
+         Debug\RTX_KinectDlg.obj
+         Debug\SkeletonBasics.obj
+         Debug\stdafx.obj
+         Kinect10.lib
+         RT100.LIB
+         RTX_Kinect.vcxproj -> C:\Users\William\Documents\Visual Studio 2013\Projects\RTX_Kinect\Debug\RTX_Kinect.exe
+     1>Done Building Project "C:\Users\William\Documents\Visual Studio 2013\Projects\RTX_Kinect\RTX_Kinect\RTX_Kinect.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.77
